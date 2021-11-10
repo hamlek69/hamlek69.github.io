@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+
+
+<head>
+	<meta charset="UTF-8">
+	<title> HTML5 Grundgerüst </title>
+	<meta name="index1-Testdatei" content="Checkit">
+    <link href="css/design.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>HTML-Tutorial</h1>
+   
+    <p>der erste <b>Absatz</b> </p>
+    <!-- <p>...</p> wie paragraph (Absatz) -->
+
+    <img src="pics/kunert.png" alt="Kunert Logo">
+
+    <!-- Seiten Navigations Menu -->
+    <!-- “ul” erstellt eine Liste mit einem verlinkten Element pro Eintrag. -->
+    <!-- <ul>..</ul> ist eine ungeordnete Liste-->
+    <!-- <li>         ist ein Listenelement    -->
+    <ul class="navbar">
+        <li><a href="index1.html">Startseite</a>
+        <li><a href="hobbys.html">Hobbys</a>
+        <li><a href="town.html">Town</a>
+        <li><a href="links.html">Links</a>
+    </ul>
+    
+    <!-- hier wird die documment.write(); funktion zur Textausgaben verwendet, 
+        das erzeugt eine Ausgabe in der HTML Seite, 
+        der Text steht dabei auch in 'text' hochkommata
+        das geht nur als Inline js -->
+
+    <script>
+        document.writeln('Klick auf ');
+        document.write('das Bild');
+    </script>
+
+    <p>vor dem Java Skript-1</p>
+    <button>Name ändern</button>
+    <script src="scripts/main.js"></script>
+    <p>nach dem Java Skript</p>
+
+</body>
+</html>
