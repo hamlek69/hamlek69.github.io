@@ -16,7 +16,7 @@ var myHeading = document.querySelector('h1');
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'pics/kunert.png') {
-      myImage.setAttribute ('src','pics/bernd.png');
+      myImage.setAttribute ('src','pics/Bernd.png');
     } else {
       myImage.setAttribute ('src','pics/kunert.png');
     }
