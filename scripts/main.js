@@ -15,10 +15,10 @@ var myHeading = document.querySelector('h1');
 // Toggle Source Image
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'pics/kunert.png') {
+    if(mySrc === 'pics/wolke.png') {
       myImage.setAttribute ('src','pics/Bernd.png');
     } else {
-      myImage.setAttribute ('src','pics/kunert.png');
+      myImage.setAttribute ('src','pics/wolke.png');
     }
 }
 
