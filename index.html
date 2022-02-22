@@ -31,10 +31,13 @@
     <!-- hier wird die documment.write(); funktion zur Textausgaben verwendet, 
         das erzeugt eine Ausgabe in der HTML Seite, 
         der Text steht dabei auch in 'text' hochkommata
-        das geht nur als Inline js -->
+        das geht nur als Inline js 
+	Document.writeln gibt HTML aus, nicht plaintext.
+	ein Newline ist also nicht '\n'  , sondern '<br>'
+	-->
 
     <script>
-        document.writeln("\n\r");
+        document.writeln('<br>');
 	document.writeln('Klick auf ');
         document.write('das Bild');
     </script>
